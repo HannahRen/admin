@@ -1,9 +1,6 @@
-# hoolai-web-admin
 
 > Nuxt.js project
 > 7003
-
-## Build Setup
 
 ``` bash
 # install dependencies
