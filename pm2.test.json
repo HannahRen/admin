@@ -1,0 +1,12 @@
+{
+  "apps": [
+    {
+      "name": "hoolai-web-admin-test",
+      "script": "build/main.js",
+      "env": {
+        "NODE_ENV": "production",
+        "NUXT_PORT": "8003"
+      }
+    }
+  ]
+}

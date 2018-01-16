@@ -1,0 +1,45 @@
+%main {
+  width: $center;
+  @include marginAuto(30px, 0);
+}
+
+%float-left {
+  float: left;
+}
+
+%float-right {
+  float: right;
+}
+
+%height-inherit {
+  height: $percent;
+}
+
+%width-inherit {
+  width: $percent;
+}
+
+%position-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+%legacy-pie-clearfix {
+  *zoom: 1;
+  &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    clear: both;
+    overflow: hidden;
+    visibility: hidden;
+  }
+}
+
+%ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
